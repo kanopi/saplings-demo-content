@@ -1,0 +1,938 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 99288d68-acb6-4456-87de-9028f1d62e39
+  bundle: sa_page
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+    f61bda74-220a-4747-a2d8-74a0695ccb9b: media
+    3a25303b-e3c7-496e-8af2-314f7eb9066c: media
+    9c2b5969-e2a3-4a60-aaf8-d1aabe162f52: media
+    d19e2d80-7b39-4c3c-a96d-511a4e9d4357: media
+    f81ba8f5-e646-4fd6-a2dc-6e64c407db39: media
+    b6573641-d8c1-418b-82cb-54aab9f126cc: media
+    03bbb731-1f2d-42e9-84f2-e3fbb98e3af7: media
+default:
+  revision_uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  title:
+    -
+      value: 'Welcome to SaplingsCMS'
+  created:
+    -
+      value: 1712588905
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Welcome to SaplingsCMS | SaplingsCMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Demonstration site for the Saplings suite of Drupal recipes.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://saplingscms.docksal.site/sites/default/files/styles/sa_social_media_facebook/public/2024-04/Kanopi-PalmSpringsRetreat-60.jpg?h=199d8c1f&itok=lVOyg0cD'
+    -
+      tag: meta
+      attributes:
+        name: referrer
+        content: unsafe-url
+    -
+      tag: meta
+      attributes:
+        name: rights
+        content: 'Copyright ©2024 All rights reserved.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SaplingsCMS
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://saplingscms.docksal.site/welcome-saplingscms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Welcome to SaplingsCMS'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Demonstration site for the Saplings suite of Drupal recipes.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://saplingscms.docksal.site/sites/default/files/styles/sa_social_media_facebook/public/2024-04/Kanopi-PalmSpringsRetreat-60.jpg?h=199d8c1f&itok=lVOyg0cD'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:type'
+        content: image/jpeg
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:width'
+        content: '1200'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:height'
+        content: '630'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:alt'
+        content: Computer
+    -
+      tag: meta
+      attributes:
+        property: 'og:updated_time'
+        content: '2024-06-18T19:39:55-04:00'
+    -
+      tag: meta
+      attributes:
+        property: 'og:locale'
+        content: en_US
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Demonstration site for the Saplings suite of Drupal recipes.'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Welcome to SaplingsCMS'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://saplingscms.docksal.site/sites/default/files/styles/sa_social_media_x/public/2024-04/Kanopi-PalmSpringsRetreat-60.jpg?h=199d8c1f&itok=z9j6n8Ma'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image:alt'
+        content: Computer
+  path:
+    -
+      alias: /welcome-saplingscms
+      langcode: en
+      pathauto: 1
+  published_at:
+    -
+      value: 1712589558
+  sa_components:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e5a1dff8-7a7b-4b53-becc-4af0c7e09aad
+          bundle: sa_side_by_side
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712590636
+          behavior_settings:
+            -
+              value: {  }
+          sa_container:
+            -
+              value: container-fluid
+          sa_description:
+            -
+              value: '<p>Mauris sed nibh ac elit commodo dapibus. Maecenas egestas tellus id erat iaculis mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus nec est ornare, cursus nulla vitae, vestibulum velit.&nbsp;</p>'
+              format: full_html
+          sa_header:
+            -
+              value: 'Side By Side Component'
+          sa_media:
+            -
+              entity: f61bda74-220a-4747-a2d8-74a0695ccb9b
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+          sa_reverse_order:
+            -
+              value: false
+          sa_width:
+            -
+              value: 'col-lg-9 col-12'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8a44b5eb-37db-4599-9ad8-b5ab636f7d31
+          bundle: sa_columns
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712590771
+          behavior_settings:
+            -
+              value: {  }
+          sa_background:
+            -
+              value: text-bg-light
+          sa_columns_desktop:
+            -
+              value: '3'
+          sa_columns_mobile:
+            -
+              value: '1'
+          sa_columns_tablet:
+            -
+              value: '2'
+          sa_column_gutters:
+            -
+              value: '4'
+          sa_column_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 818c924c-cbef-4bde-8914-59447905cc24
+                  bundle: sa_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712590782
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_card_image:
+                    -
+                      entity: 3a25303b-e3c7-496e-8af2-314f7eb9066c
+                  sa_description:
+                    -
+                      value: '<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry.</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Card Example'
+                  sa_link:
+                    -
+                      uri: 'https://example.com'
+                      title: Testing
+                      options: {  }
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 110a14fe-2fdb-4037-8075-4494347f09b6
+                  bundle: sa_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712590782
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_card_image:
+                    -
+                      entity: 9c2b5969-e2a3-4a60-aaf8-d1aabe162f52
+                  sa_description:
+                    -
+                      value: '<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.&nbsp;</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Ut ac finibus neque'
+                  sa_link:
+                    -
+                      uri: 'https://example.com'
+                      title: Testing
+                      options: {  }
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a34507f2-0eb9-4522-9a0f-38f0e3a7e889
+                  bundle: sa_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712590782
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_card_image:
+                    -
+                      entity: d19e2d80-7b39-4c3c-a96d-511a4e9d4357
+                  sa_description:
+                    -
+                      value: '<p>Duis in sapien vitae enim sollicitudin lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ante vitae ultrices finibus. Morbi eu magna ipsum.&nbsp;</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Duis in sapien vitae enim'
+                  sa_link:
+                    -
+                      uri: 'https://example.com'
+                      title: Testing
+                      options: {  }
+          sa_container:
+            -
+              value: container-fluid
+          sa_description:
+            -
+              value: '<p>Phasellus et porttitor augue. Proin vehicula erat mi, sit amet egestas metus semper eu.</p>'
+              format: full_html
+          sa_header:
+            -
+              value: Columns
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+          sa_width:
+            -
+              value: 'col-lg-9 col-12'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ae195bf7-95bf-4075-bb72-d1dd4dd4a32e
+          bundle: sa_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712590887
+          behavior_settings:
+            -
+              value: {  }
+          sa_container:
+            -
+              value: container
+          sa_description:
+            -
+              value: '<p>Donec vulputate interdum purus id euismod. Aliquam vestibulum hendrerit vulputate. In congue porttitor mi quis egestas. Integer aliquet risus rhoncus vestibulum euismod. Sed in faucibus eros. Proin ornare finibus varius. Donec id interdum risus, vitae iaculis arcu. Sed non massa id nisi consectetur congue. Integer malesuada semper ligula id malesuada. Donec eget enim feugiat, facilisis tortor at, placerat mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce tempus massa a massa sodales, eu semper odio tempus.</p>'
+              format: full_html
+          sa_header:
+            -
+              value: 'Text Component'
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+          sa_width:
+            -
+              value: 'col-lg-6 col-12'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 27ec52ed-b10a-4bc4-be4f-e58c46c3f02f
+          bundle: sa_accordion
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712594586
+          behavior_settings:
+            -
+              value: {  }
+          sa_accordion_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2d318dbe-6ed9-475e-9e42-dc1b05ba9671
+                  bundle: sa_accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594586
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>"
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'One accordion'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a6896ec8-4f11-475d-922b-c93888940594
+                  bundle: sa_accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594586
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>"
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Two accordion'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 4fcc52ed-2e5f-4811-bfda-f0355af6ad8c
+                  bundle: sa_accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594586
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>"
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Three accordion'
+          sa_background:
+            -
+              value: text-bg-light
+          sa_container:
+            -
+              value: container-fluid
+          sa_description:
+            -
+              value: '<p>Vestibulum imperdiet fringilla augue sit amet bibendum. Phasellus vitae urna sed urna ullamcorper commodo. Nam sagittis tempus sem bibendum semper. In volutpat libero in orci feugiat, at eleifend odio imperdiet.&nbsp;</p>'
+              format: full_html
+          sa_header:
+            -
+              value: Accordion
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+          sa_width:
+            -
+              value: 'col-lg-6 col-12'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 249938ae-6707-47e9-b02d-bf6ea1c46e4a
+          bundle: sa_carousel
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712594680
+          behavior_settings:
+            -
+              value: {  }
+          sa_carousel_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 149913e7-a77c-4caf-b982-a2bd83b99c53
+                  bundle: sa_carousel_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594680
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_carousel_image:
+                    -
+                      entity: f81ba8f5-e646-4fd6-a2dc-6e64c407db39
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a3007133-540d-49ab-bf69-85afbeaa6291
+                  bundle: sa_carousel_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594703
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_carousel_image:
+                    -
+                      entity: f61bda74-220a-4747-a2d8-74a0695ccb9b
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: fc6def6f-86ad-4162-84bb-092fd0dcb0ac
+                  bundle: sa_carousel_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594710
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_carousel_image:
+                    -
+                      entity: 3a25303b-e3c7-496e-8af2-314f7eb9066c
+          sa_container:
+            -
+              value: container
+          sa_description:
+            -
+              value: '<p>Nulla id sagittis urna. In dapibus velit eu nisl hendrerit consequat. Suspendisse non odio ligula. Praesent in interdum tellus, non dignissim justo. Curabitur et dui vel dolor rhoncus vulputate. Quisque tempus leo congue dictum interdum. Integer ut iaculis augue, quis tristique erat.</p>'
+              format: full_html
+          sa_header:
+            -
+              value: Carousel
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7208c94a-9dc1-4ff2-8d7b-07d57030c297
+          bundle: sa_block
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712594737
+          behavior_settings:
+            -
+              value: {  }
+          sa_background:
+            -
+              value: text-bg-light
+          sa_block:
+            -
+              plugin_id: system_powered_by_block
+              settings:
+                id: system_powered_by_block
+                label: 'Powered by Drupal'
+                label_display: false
+                provider: system
+          sa_container:
+            -
+              value: container-fluid
+          sa_description:
+            -
+              value: '<p>Proin in ipsum condimentum, pharetra justo a, consequat purus. Maecenas ligula eros, tincidunt nec purus ac, condimentum pellentesque odio.&nbsp;</p>'
+              format: full_html
+          sa_header:
+            -
+              value: Block
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+          sa_width:
+            -
+              value: 'col-lg-6 col-12'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2d128222-9d25-4458-b3ca-b0c1f6ba59c9
+          bundle: sa_tabs
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712594754
+          behavior_settings:
+            -
+              value: {  }
+          sa_container:
+            -
+              value: container
+          sa_description:
+            -
+              value: '<p>Pellentesque vitae turpis suscipit, rutrum velit vel, mattis mauris. In mattis egestas metus, sed imperdiet nunc. Proin imperdiet metus vel quam blandit, at aliquam libero rutrum.&nbsp;</p>'
+              format: full_html
+          sa_header:
+            -
+              value: Tabs
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+          sa_tab_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f9c00984-118d-4a3a-bd8e-d01e3400dd48
+                  bundle: sa_tab
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594754
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies consectetur laoreet. Maecenas interdum sagittis metus, nec feugiat felis interdum eget. Nulla rutrum libero erat, sit amet hendrerit augue congue vitae. Phasellus luctus fermentum fringilla. Maecenas suscipit dui lectus, et dictum orci feugiat in. Vivamus tempor vulputate nulla placerat facilisis. Nam vulputate euismod velit, eget porta metus luctus ut. Phasellus in nibh auctor libero mattis dignissim. In sit amet turpis nec nisl molestie placerat.</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Lorem ipsum dolor'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 35c133ce-ca72-4bc2-af09-e7f8a4114031
+                  bundle: sa_tab
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594768
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: '<p>Maecenas euismod consequat tortor, sed commodo libero. Nunc ut dui tristique, blandit sapien quis, aliquet nulla. Nulla ac odio ante. Duis commodo, magna at mollis faucibus, libero diam eleifend nisi, vel suscipit erat felis sed tortor. Curabitur molestie turpis ac nisi vehicula luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris porttitor nisi ac tortor pretium, a viverra lacus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec commodo, urna ut vulputate molestie, est enim tristique augue, non imperdiet augue velit nec nisl. Pellentesque mattis nisl in consequat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis sed neque est. Cras auctor luctus vehicula. Vivamus porta a diam vitae faucibus.</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Maecenas euismod consequat'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 951d2b2f-8f5a-470b-b7e1-32aaa2a42855
+                  bundle: sa_tab
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1712594774
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: '<p>Duis in ultricies leo, vel vehicula neque. Sed porttitor ante quam, dictum mollis lectus dignissim eu. Morbi ultricies leo ex, ac ultrices lorem rutrum vel. Cras vestibulum, elit id interdum fermentum, tortor risus pretium lectus, quis eleifend orci enim eget massa. Curabitur non malesuada purus, non molestie eros. Nunc id nisi in erat tincidunt mollis vitae eget metus. Fusce sollicitudin dui euismod consequat scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Duis in ultricies leo'
+          sa_width:
+            -
+              value: 'col-lg-6 col-12'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: dbef6107-7a9c-419c-9411-f19948b8c511
+          bundle: sa_media
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712594814
+          behavior_settings:
+            -
+              value: {  }
+          sa_background:
+            -
+              value: text-bg-primary
+          sa_container:
+            -
+              value: container-fluid
+          sa_header:
+            -
+              value: Media
+          sa_media:
+            -
+              entity: b6573641-d8c1-418b-82cb-54aab9f126cc
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+          sa_width:
+            -
+              value: 'col-lg-6 col-12'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 72dda394-f5dc-4f7f-ae9d-cd9a7c2dc260
+          bundle: sa_filtered_list
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712595877
+          behavior_settings:
+            -
+              value: {  }
+          sa_container:
+            -
+              value: container
+          sa_description:
+            -
+              value: '<p>Nulla iaculis felis vel consequat tempus. Mauris ante dui, porttitor non lectus in, molestie pulvinar sapien. Phasellus felis enim, congue et elit ut, fringilla mollis sapien. Vestibulum mollis tincidunt molestie.</p>'
+              format: full_html
+          sa_filtered_list:
+            -
+              target_id: sa_posts
+              display_id: block_1
+              data: 'a:5:{s:6:"offset";N;s:5:"pager";N;s:5:"title";N;s:5:"limit";N;s:8:"argument";N;}'
+          sa_header:
+            -
+              value: 'Filtered List'
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: af7b2689-e592-4225-92fc-7570d7efba67
+          bundle: sa_faq
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1718753940
+          behavior_settings:
+            -
+              value: {  }
+          sa_container:
+            -
+              value: container
+          sa_faq_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 7d1509e9-de21-4e5d-abec-06a480129df1
+                  bundle: sa_faq_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1718753940
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: '<p>First answer.</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'First question?'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 8e36c310-875d-444f-987c-59d9b060440f
+                  bundle: sa_faq_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1718753940
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: '<p>Second answer.</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Second question?'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f3d614f1-9ad6-4211-a405-01054673a6fc
+                  bundle: sa_faq_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1718753940
+                  behavior_settings:
+                    -
+                      value: {  }
+                  sa_description:
+                    -
+                      value: '<p>Third answer.</p>'
+                      format: full_html
+                  sa_header:
+                    -
+                      value: 'Third question?'
+          sa_header:
+            -
+              value: FAQ
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+  sa_description:
+    -
+      value: 'Demonstration site for the Saplings suite of Drupal recipes.'
+  sa_featured_image:
+    -
+      entity: 03bbb731-1f2d-42e9-84f2-e3fbb98e3af7
+  sa_header_position:
+    -
+      value: position_bottom
+  sa_hide_header:
+    -
+      value: false
+  sa_overlay:
+    -
+      value: dark_50

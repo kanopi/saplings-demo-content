@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7fe1be69-a5ca-40fe-9a3d-28b1f3c1c0ee
+  bundle: sa_post_type
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Blog
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Blog | SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/taxonomy/term/2'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

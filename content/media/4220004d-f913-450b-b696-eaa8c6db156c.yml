@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4220004d-f913-450b-b696-eaa8c6db156c
+  bundle: image
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+    2d6ff2e3-946d-4b91-a7ee-7e0d4fe4d435: file
+default:
+  revision_user:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  name:
+    -
+      value: kat-jim.jpg
+  created:
+    -
+      value: 1712615080
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/welcome-saplingscms'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 2d6ff2e3-946d-4b91-a7ee-7e0d4fe4d435
+      alt: Kat
+      title: ''
+      width: 6016
+      height: 4016

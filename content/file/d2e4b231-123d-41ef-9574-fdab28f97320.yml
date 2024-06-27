@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d2e4b231-123d-41ef-9574-fdab28f97320
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+default:
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  filename:
+    -
+      value: rebecca.jpg
+  uri:
+    -
+      value: 'public://2024-06/rebecca.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 901993
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1719495043

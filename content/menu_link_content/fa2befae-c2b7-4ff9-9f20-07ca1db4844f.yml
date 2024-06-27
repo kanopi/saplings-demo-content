@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: fa2befae-c2b7-4ff9-9f20-07ca1db4844f
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Twitter
+  description:
+    -
+      value: Twitter
+  menu_name:
+    -
+      value: social
+  link:
+    -
+      uri: 'https://twitter.com/kanopi_studios'
+      title: ''
+      options:
+        icon: 'bi bi-twitter-x'
+        icon_tag: i
+        icon_appearance: only
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/welcome-saplingscms'

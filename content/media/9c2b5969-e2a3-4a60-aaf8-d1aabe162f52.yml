@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9c2b5969-e2a3-4a60-aaf8-d1aabe162f52
+  bundle: image
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+    92fbe6c8-f24a-4056-8ba8-6e0aeda2c52a: file
+default:
+  revision_user:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  name:
+    -
+      value: Kanopi-PalmSpringsRetreat-20.jpg
+  created:
+    -
+      value: 1712590487
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/welcome-saplingscms'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 92fbe6c8-f24a-4056-8ba8-6e0aeda2c52a
+      alt: Retreat
+      title: ''
+      width: 1024
+      height: 683

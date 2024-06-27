@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: caf33d88-8915-4366-a478-e3c087759ae0
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    f96bb895-f7b7-4974-8596-9cb250b91e1e: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Submenu
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://test.com'
+      title: ''
+      options:
+        icon: ''
+        icon_tag: i
+        icon_appearance: before
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:f96bb895-f7b7-4974-8596-9cb250b91e1e'
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/welcome-saplingscms'

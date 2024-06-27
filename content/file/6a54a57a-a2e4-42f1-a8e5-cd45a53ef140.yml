@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6a54a57a-a2e4-42f1-a8e5-cd45a53ef140
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+default:
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  filename:
+    -
+      value: zane.jpg
+  uri:
+    -
+      value: 'public://2024-06/zane.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6073745
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1719495146

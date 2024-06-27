@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5fbcfb1b-76b7-45b7-a5cd-77d2c442cf6f
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+default:
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  filename:
+    -
+      value: Kanopi-PalmSpringsRetreat-25.jpg
+  uri:
+    -
+      value: 'public://2024-04/Kanopi-PalmSpringsRetreat-25.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 133700
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1712615933

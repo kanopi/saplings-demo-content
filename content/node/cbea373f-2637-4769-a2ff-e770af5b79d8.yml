@@ -1,0 +1,138 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cbea373f-2637-4769-a2ff-e770af5b79d8
+  bundle: sa_page
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+default:
+  revision_uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  title:
+    -
+      value: Events
+  created:
+    -
+      value: 1712613452
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Events | SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/'
+    -
+      tag: meta
+      attributes:
+        name: referrer
+        content: unsafe-url
+    -
+      tag: meta
+      attributes:
+        name: rights
+        content: 'Copyright ©2024 All rights reserved.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SaplingsCMS
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://saplingscms.docksal.site/welcome-saplingscms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Events
+    -
+      tag: meta
+      attributes:
+        property: 'og:updated_time'
+        content: '2024-06-27T09:55:48-04:00'
+    -
+      tag: meta
+      attributes:
+        property: 'og:locale'
+        content: en_US
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Events
+  path:
+    -
+      alias: /events
+      langcode: en
+      pathauto: 1
+  published_at:
+    -
+      value: 1712613452
+  sa_components:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 195c0487-3d0d-41b4-9ded-0bd42b464f5d
+          bundle: sa_filtered_list
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712613415
+          behavior_settings:
+            -
+              value: {  }
+          sa_container:
+            -
+              value: container
+          sa_filtered_list:
+            -
+              target_id: sa_events
+              display_id: upcoming_events
+              data: 'a:5:{s:6:"offset";N;s:5:"pager";N;s:5:"title";N;s:5:"limit";N;s:8:"argument";N;}'
+          sa_header:
+            -
+              value: 'Upcoming Events'
+          sa_padding:
+            -
+              value: 'pt-3 pb-3'
+  sa_hide_header:
+    -
+      value: false

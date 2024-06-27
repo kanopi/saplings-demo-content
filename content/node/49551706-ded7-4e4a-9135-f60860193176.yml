@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 49551706-ded7-4e4a-9135-f60860193176
+  bundle: sa_event
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+    c1d1d4b8-b8c1-4d83-a846-a76242d85ae6: media
+default:
+  revision_uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  title:
+    -
+      value: 'In mattis laoreet massa in consequat'
+  created:
+    -
+      value: 1712613265
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'In mattis laoreet massa in consequat | SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/mattis-laoreet-massa-consequat'
+  path:
+    -
+      alias: /mattis-laoreet-massa-consequat
+      langcode: en
+      pathauto: 1
+  published_at:
+    -
+      value: 1712613264
+  sa_attendance_mode:
+    -
+      value: offlineeventattendancemode
+  sa_availability:
+    -
+      value: instock
+  sa_body:
+    -
+      value: '<p>Pellentesque vulputate, nisi nec dignissim rhoncus, justo ligula lacinia diam, in fringilla lectus dolor interdum purus. Donec ac quam dapibus, ullamcorper mauris eu, fringilla leo. Nullam elit tortor, interdum eu semper a, venenatis vel tellus. Phasellus diam lectus, vehicula eu tempus quis, vehicula ac nisi. Nunc eu nunc sagittis, porttitor velit vel, convallis nisi. Ut sem lectus, pulvinar id odio ac, imperdiet lobortis ipsum. Nulla enim orci, faucibus at dignissim sit amet, condimentum vitae lorem.</p><p>Integer porttitor quam ut quam mattis, vel finibus metus dignissim. Integer vitae orci dolor. Aliquam vitae aliquam mi, sit amet lacinia metus. Sed ultricies laoreet ipsum, sit amet vestibulum tellus auctor vel. Quisque vitae felis quis quam condimentum lacinia. Ut suscipit, urna ornare dictum pellentesque, sapien lacus faucibus mi, iaculis feugiat lectus tortor sit amet ligula. In volutpat consequat lobortis. Curabitur ornare efficitur nulla, ac ornare turpis pharetra ut. Duis tincidunt viverra libero porta semper.</p>'
+      format: full_html
+      summary: ''
+  sa_cost:
+    -
+      value: '5.00'
+  sa_currency:
+    -
+      value: USD
+  sa_description:
+    -
+      value: 'Donec malesuada sagittis velit nec tincidunt. Nullam orci neque, ornare quis erat sit amet, imperdiet malesuada magna.'
+  sa_event_date:
+    -
+      value: 1712829600
+      end_value: 1712836800
+      duration: 120
+      rrule: 0
+      rrule_index: 0
+      timezone: ''
+  sa_featured_image:
+    -
+      entity: c1d1d4b8-b8c1-4d83-a846-a76242d85ae6
+  sa_header_position:
+    -
+      value: position_bottom
+  sa_hide_header:
+    -
+      value: false
+  sa_overlay:
+    -
+      value: dark_50
+  sa_register_link:
+    -
+      uri: 'http://example.com'
+      title: 'Register now!'
+      options: {  }

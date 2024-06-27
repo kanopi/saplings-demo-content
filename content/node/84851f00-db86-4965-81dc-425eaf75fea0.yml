@@ -1,0 +1,275 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 84851f00-db86-4965-81dc-425eaf75fea0
+  bundle: sa_post
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+    be5586a3-7215-412c-b23d-0c9b82c221b0: media
+default:
+  revision_uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  title:
+    -
+      value: 'Sed congue urna vitae viverra consectetur'
+  created:
+    -
+      value: 1712615253
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Sed congue urna vitae viverra consectetur | SaplingsCMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Sed euismod ex et gravida tristique. In tincidunt semper nisl. Curabitur ut felis consectetur, scelerisque velit sit amet, congue lectus. Cras quis tellus et nulla laoreet euismod.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/welcome-saplingscms'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://saplingscms.docksal.site/sites/default/files/styles/sa_social_media_facebook/public/2024-06/rebecca.jpg?h=e5aec6c8&itok=i4M8BEn3'
+    -
+      tag: meta
+      attributes:
+        name: author
+        content: Kanopi
+    -
+      tag: meta
+      attributes:
+        name: referrer
+        content: unsafe-url
+    -
+      tag: meta
+      attributes:
+        name: rights
+        content: 'Copyright ©2024 All rights reserved.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SaplingsCMS
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: article
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://saplingscms.docksal.site/welcome-saplingscms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Sed congue urna vitae viverra consectetur'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Sed euismod ex et gravida tristique. In tincidunt semper nisl. Curabitur ut felis consectetur, scelerisque velit sit amet, congue lectus. Cras quis tellus et nulla laoreet euismod.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://saplingscms.docksal.site/sites/default/files/styles/sa_social_media_facebook/public/2024-06/rebecca.jpg?h=e5aec6c8&itok=i4M8BEn3'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:type'
+        content: image/jpeg
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:width'
+        content: '1200'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:height'
+        content: '630'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:alt'
+        content: Rebecca
+    -
+      tag: meta
+      attributes:
+        property: 'og:updated_time'
+        content: '2024-04-08T18:27:33-04:00'
+    -
+      tag: meta
+      attributes:
+        property: 'og:locale'
+        content: en_US
+    -
+      tag: meta
+      attributes:
+        property: 'article:author'
+        content: Kanopi
+    -
+      tag: meta
+      attributes:
+        property: 'article:published_time'
+        content: '2024-04-08T12:53:04-04:00'
+    -
+      tag: meta
+      attributes:
+        property: 'article:modified_time'
+        content: '2024-04-08T18:27:33-04:00'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Sed euismod ex et gravida tristique. In tincidunt semper nisl. Curabitur ut felis consectetur, scelerisque velit sit amet, congue lectus. Cras quis tellus et nulla laoreet euismod.'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Sed congue urna vitae viverra consectetur'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://saplingscms.docksal.site/sites/default/files/styles/sa_social_media_x/public/2024-06/rebecca.jpg?h=e5aec6c8&itok=WHzyMo0e'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image:alt'
+        content: Rebecca
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Article
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: '@id'
+        content: 'http://saplingscms.docksal.site/welcome-saplingscms'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: headline
+        content: 'Sed congue urna vitae viverra consectetur'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: 'Sed congue urna vitae viverra consectetur'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Sed euismod ex et gravida tristique. In tincidunt semper nisl. Curabitur ut felis consectetur, scelerisque velit sit amet, congue lectus. Cras quis tellus et nulla laoreet euismod.'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: image
+        content:
+          '@type': ImageObject
+          representativeOfPage: 'True'
+          url: 'http://saplingscms.docksal.site/sites/default/files/styles/sa_social_media_facebook/public/2024-06/rebecca.jpg?h=e5aec6c8&itok=i4M8BEn3'
+          width: '1200'
+          height: '630'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: datePublished
+        content: '2024-04-08T12:53:04-04:00'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: dateModified
+        content: '2024-04-08T18:27:33-04:00'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: author
+        content:
+          '@type': Person
+          name: Kanopi
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: mainEntityOfPage
+        content: 'http://saplingscms.docksal.site/welcome-saplingscms'
+        group: schema_article
+        schema_metatag: true
+  path:
+    -
+      alias: /sed-congue-urna-vitae-viverra-consectetur
+      langcode: en
+      pathauto: 1
+  published_at:
+    -
+      value: 1712595184
+  sa_author:
+    -
+      value: Kanopi
+  sa_body:
+    -
+      value: '<h2>What is Lorem Ipsum?</h2><p class="text-align-justify"><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><h2>Why do we use it?</h2><p class="text-align-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ''Content here, content here'', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ''lorem ipsum'' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p><h2>Where does it come from?</h2><p class="text-align-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p><p class="text-align-justify">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p><h2>Where can I get some?</h2><p class="text-align-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don''t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn''t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>'
+      format: full_html
+      summary: ''
+  sa_description:
+    -
+      value: 'Sed euismod ex et gravida tristique. In tincidunt semper nisl. Curabitur ut felis consectetur, scelerisque velit sit amet, congue lectus. Cras quis tellus et nulla laoreet euismod.'
+  sa_featured_image:
+    -
+      entity: be5586a3-7215-412c-b23d-0c9b82c221b0
+  sa_header_position:
+    -
+      value: position_bottom
+  sa_overlay:
+    -
+      value: dark_50

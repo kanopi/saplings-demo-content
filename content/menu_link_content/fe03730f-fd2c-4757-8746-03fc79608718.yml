@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: fe03730f-fd2c-4757-8746-03fc79608718
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    a34309b2-6710-441a-ab1a-9c30682e20ad: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Footer Link One'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      target_uuid: a34309b2-6710-441a-ab1a-9c30682e20ad
+      title: ''
+      options:
+        icon: ''
+        icon_tag: i
+        icon_appearance: before
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/welcome-saplingscms'

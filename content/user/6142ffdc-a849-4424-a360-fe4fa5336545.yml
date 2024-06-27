@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 6142ffdc-a849-4424-a360-fe4fa5336545
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: kanopiadmin
+  pass:
+    -
+      value: $2y$10$Vo2GXQC8NWxpuKuKn/H.p.6JQlmfEjiT7Tejb0nG3Cc/QTvMOnvOu
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: support+saplingscms-user2@kanopi.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1712580076
+  access:
+    -
+      value: 1719498817
+  login:
+    -
+      value: 1719498817
+  roles:
+    -
+      target_id: administrator
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'kanopiadmin | SaplingsCMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: SaplingsCMS
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/user/2'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

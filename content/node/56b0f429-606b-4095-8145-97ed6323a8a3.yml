@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 56b0f429-606b-4095-8145-97ed6323a8a3
+  bundle: sa_event
+  default_langcode: en
+  depends:
+    6142ffdc-a849-4424-a360-fe4fa5336545: user
+    f81ba8f5-e646-4fd6-a2dc-6e64c407db39: media
+default:
+  revision_uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 6142ffdc-a849-4424-a360-fe4fa5336545
+  title:
+    -
+      value: 'Event Content Example'
+  created:
+    -
+      value: 1712597147
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Event Content Example | SaplingsCMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://saplingscms.docksal.site/event-content-example'
+  path:
+    -
+      alias: /event-content-example
+      langcode: en
+      pathauto: 1
+  published_at:
+    -
+      value: 1712597147
+  sa_attendance_mode:
+    -
+      value: offlineeventattendancemode
+  sa_availability:
+    -
+      value: instock
+  sa_body:
+    -
+      value: '<h2>What is Lorem Ipsum?</h2><p class="text-align-justify"><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><h2>Why do we use it?</h2><p class="text-align-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ''Content here, content here'', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ''lorem ipsum'' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p><h2>Where does it come from?</h2><p class="text-align-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p><p class="text-align-justify">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>'
+      format: full_html
+      summary: ''
+  sa_cost:
+    -
+      value: '25.00'
+  sa_currency:
+    -
+      value: USD
+  sa_description:
+    -
+      value: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+  sa_event_date:
+    -
+      value: 1714134240
+      end_value: 1714137840
+      duration: 60
+      rrule: 0
+      rrule_index: 0
+      timezone: ''
+  sa_featured_image:
+    -
+      entity: f81ba8f5-e646-4fd6-a2dc-6e64c407db39
+  sa_hide_header:
+    -
+      value: false
+  sa_location:
+    -
+      langcode: ''
+      country_code: US
+      administrative_area: IL
+      locality: Chicago
+      dependent_locality: ''
+      postal_code: '60647'
+      sorting_code: ''
+      address_line1: '205 Fake Street Address'
+      address_line2: ''
+      address_line3: ''
+      organization: Kanopi
+      given_name: Kerry
+      additional_name: ''
+      family_name: Murphy
+  sa_overlay:
+    -
+      value: dark_50
+  sa_register_link:
+    -
+      uri: 'https://test.com'
+      title: 'Register Today'
+      options: {  }
