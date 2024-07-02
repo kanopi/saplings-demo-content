@@ -1,5 +1,5 @@
 {
-    "name": "kanopi/saplings-content",
+    "name": "kanopi/saplings-demo-content",
     "description": "Demo content for Saplings.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
